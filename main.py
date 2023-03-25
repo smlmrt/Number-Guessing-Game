@@ -1,8 +1,6 @@
 from random import randint
 
 sayi = randint(1, 100)
-#print("tutulan sayi: {}".format(sayi))
-
 hak = 5
 
 while hak > 0:
@@ -21,3 +19,8 @@ while hak > 0:
         print("Yukarı çık")
         print("Kalan hakkınız: {}".format(hak))
         continue
+        
+print("***********")
+if hak == 0:
+    print("Tutulan sayi: {}".format(sayi))
+print("***********")
